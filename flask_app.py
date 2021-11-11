@@ -17,3 +17,7 @@ def hello_apple():
 @app.route('/today')
 def today():
     return str(date.today())
+
+@app.route('hi')
+def hi():
+    return 'hi'
