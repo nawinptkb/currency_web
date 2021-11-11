@@ -18,6 +18,6 @@ def hello_apple():
 def today():
     return str(date.today())
 
-@app.route('hi')
+@app.route('/hi')
 def hi():
     return 'hi'
